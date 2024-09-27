@@ -12,6 +12,6 @@ import java.time.Instant;
 public class DomainRecordDTO {
     private String recordId;
     private String organizationId;
-    private Instant fullyQualifiedDomainName;
+    private String fullyQualifiedDomainName;
     private Instant domainValidityExpiry;
 }
